@@ -1,27 +1,63 @@
-# SOHO - Eliminacion de datos / Data Deletion Instructions
+SOHO — INSTRUCCIONES PARA LA ELIMINACIÓN DE DATOS
+Data Deletion Instructions (English version below)
 
-Ultima actualizacion / Last updated: 2026-11-01
+Versión 2.0 · Vigente desde el 1 de noviembre de 2026
 
-## Espanol
+────────────────────────────────────────────────────────────
 
-SOHO guarda todos los datos solo en la computadora del usuario. No existe una copia en servidores de SOHO, por lo que el usuario puede borrarlos por completo en cualquier momento:
+SOHO se ejecuta íntegramente en el equipo del usuario. El desarrollador no conserva copias de su información en servidores propios, por lo que el usuario mantiene el control total y puede eliminar sus datos de forma inmediata, completa y sin intermediarios.
 
-1. Quitar la conexion en la app: en SOHO ve a Conectar datos > Meta Ads y elimina el portafolio conectado.
-2. Borrar los datos locales: cierra SOHO y elimina la carpeta %APPDATA%\SOHO (en Windows: tecla Windows + R, escribe %APPDATA%, abre y borra la carpeta SOHO). Tambien puedes desinstalar la app.
-3. Revocar el acceso en Meta: en business.facebook.com > Configuracion del negocio > Usuarios del sistema, elimina el usuario del sistema creado para SOHO o revoca su llave (token). Tambien puedes eliminar la app en developers.facebook.com.
+Para eliminar toda la información asociada a SOHO, siga estos pasos:
 
-Despues de estos pasos no queda ningun dato tuyo en SOHO.
+PASO 1 · Desconectar el portafolio
+En SOHO, abra «Conectar datos» › «Meta Ads» y elimine el portafolio conectado. La Aplicación deja de consultar la API de Meta de inmediato.
 
-Ayuda: https://github.com/tech343232/soho-legal/issues
+PASO 2 · Eliminar los datos locales
+Cierre SOHO. Pulse Windows + R, escriba %APPDATA% y presione Enter. Elimine la carpeta «SOHO». Esto borra de forma definitiva las credenciales, las métricas almacenadas, la configuración y el historial. Opcionalmente, desinstale la Aplicación desde Configuración › Aplicaciones.
 
-## English
+PASO 3 · Revocar el acceso en Meta
+En business.facebook.com › Configuración del negocio › Usuarios › Usuarios del sistema, seleccione el usuario creado para SOHO y elimínelo o revoque su token de acceso. Si lo desea, elimine también la aplicación desde developers.facebook.com › Mis apps.
 
-SOHO stores all data only on the user's computer. There is no copy on SOHO servers, so the user can fully delete it at any time:
+RESULTADO
+Una vez completados estos pasos, no se conserva ninguna información del usuario en SOHO ni existe acceso activo a sus cuentas publicitarias.
 
-1. Remove the connection in the app: in SOHO go to Conectar datos > Meta Ads and delete the connected portfolio.
-2. Delete local data: close SOHO and delete the folder %APPDATA%\SOHO (Windows + R, type %APPDATA%, delete the SOHO folder). You can also uninstall the app.
-3. Revoke access in Meta: in business.facebook.com > Business settings > System users, delete the system user created for SOHO or revoke its token. You can also delete the app at developers.facebook.com.
+PLAZO
+La eliminación es inmediata: surte efecto en el momento en que el usuario completa los pasos anteriores.
 
-After these steps no data of yours remains in SOHO.
+ASISTENCIA
+Si necesita ayuda con el proceso:
+https://github.com/tech343232/soho-legal/issues
 
-Help: https://github.com/tech343232/soho-legal/issues
+Política de privacidad:
+https://raw.githubusercontent.com/tech343232/soho-legal/main/privacy-policy.md
+
+────────────────────────────────────────────────────────────
+
+SOHO — DATA DELETION INSTRUCTIONS
+
+Version 2.0 · Effective November 1, 2026
+
+SOHO runs entirely on the user's own device. The developer keeps no copies of user information on its own servers, so the user retains full control and can delete their data immediately, completely and without intermediaries.
+
+To delete all information associated with SOHO:
+
+STEP 1 · Disconnect the portfolio
+In SOHO, open "Conectar datos" › "Meta Ads" and delete the connected portfolio. The Application stops querying the Meta API immediately.
+
+STEP 2 · Delete local data
+Close SOHO. Press Windows + R, type %APPDATA% and press Enter. Delete the "SOHO" folder. This permanently removes credentials, stored metrics, settings and history. Optionally, uninstall the Application from Settings › Apps.
+
+STEP 3 · Revoke access in Meta
+In business.facebook.com › Business settings › Users › System users, select the user created for SOHO and delete it or revoke its access token. Optionally, also delete the app at developers.facebook.com › My Apps.
+
+RESULT
+Once these steps are completed, no user information remains in SOHO and there is no active access to the user's ad accounts.
+
+TIMEFRAME
+Deletion is immediate: it takes effect the moment the user completes the steps above.
+
+SUPPORT
+https://github.com/tech343232/soho-legal/issues
+
+Privacy Policy:
+https://raw.githubusercontent.com/tech343232/soho-legal/main/privacy-policy.md
